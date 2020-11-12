@@ -1,13 +1,19 @@
 .app {
-  margin: 30px;
+  height: 100vh;
+  padding: 30px;
   &__title {
     font-family: monospace;
+    margin: 10px;
+    width: 320px;
+    height: 35px;
+    background-color: white;
   }
   &__list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     &--card {
+      background-color: white;
       border: 1px solid black;
       border-radius: 10px;
       width: 120px;
